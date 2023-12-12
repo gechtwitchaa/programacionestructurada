@@ -1,3 +1,6 @@
 # ninja log v5
 3	124	7240811738377619	CMakeFiles/programacionestructurada.dir/1a.cpp.obj	f650fc27f2db1a5c
 126	359	7240811740689928	programacionestructurada.exe	af32a34e599992cd
+5	144	7240813145680577	CMakeFiles/programacionestructurada.dir/1b.cpp.obj	6d636ac25d4c5262
+1	334	7240813448189944	CMakeFiles/1b.dir/1b.cpp.obj	b72f800e0dfe306d
+335	541	7240813450260968	1b.exe	2114c257dcc77eb9

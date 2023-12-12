@@ -55,12 +55,6 @@ build CMakeFiles/programacionestructurada.dir/1a.cpp.obj: CXX_COMPILER__programa
   OBJECT_DIR = CMakeFiles\programacionestructurada.dir
   OBJECT_FILE_DIR = CMakeFiles\programacionestructurada.dir
 
-build CMakeFiles/programacionestructurada.dir/1b.cpp.obj: CXX_COMPILER__programacionestructurada_unscanned_Debug C$:/Users/alber_wzgn3ys/Documents/GitHub/programacionestructurada/1b.cpp || cmake_object_order_depends_target_programacionestructurada
-  DEP_FILE = CMakeFiles\programacionestructurada.dir\1b.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\programacionestructurada.dir
-  OBJECT_FILE_DIR = CMakeFiles\programacionestructurada.dir
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target programacionestructurada
@@ -69,7 +63,7 @@ build CMakeFiles/programacionestructurada.dir/1b.cpp.obj: CXX_COMPILER__programa
 #############################################
 # Link the executable programacionestructurada.exe
 
-build programacionestructurada.exe: CXX_EXECUTABLE_LINKER__programacionestructurada_Debug CMakeFiles/programacionestructurada.dir/1a.cpp.obj CMakeFiles/programacionestructurada.dir/1b.cpp.obj
+build programacionestructurada.exe: CXX_EXECUTABLE_LINKER__programacionestructurada_Debug CMakeFiles/programacionestructurada.dir/1a.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\programacionestructurada.dir
@@ -78,6 +72,39 @@ build programacionestructurada.exe: CXX_EXECUTABLE_LINKER__programacionestructur
   TARGET_FILE = programacionestructurada.exe
   TARGET_IMPLIB = libprogramacionestructurada.dll.a
   TARGET_PDB = programacionestructurada.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1b
+
+
+#############################################
+# Order-only phony target for 1b
+
+build cmake_object_order_depends_target_1b: phony || CMakeFiles/1b.dir
+
+build CMakeFiles/1b.dir/1b.cpp.obj: CXX_COMPILER__1b_unscanned_Debug C$:/Users/alber_wzgn3ys/Documents/GitHub/programacionestructurada/1b.cpp || cmake_object_order_depends_target_1b
+  DEP_FILE = CMakeFiles\1b.dir\1b.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\1b.dir
+  OBJECT_FILE_DIR = CMakeFiles\1b.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1b
+
+
+#############################################
+# Link the executable 1b.exe
+
+build 1b.exe: CXX_EXECUTABLE_LINKER__1b_Debug CMakeFiles/1b.dir/1b.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\1b.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1b.exe
+  TARGET_IMPLIB = lib1b.dll.a
+  TARGET_PDB = 1b.exe.dbg
 
 
 #############################################
@@ -105,6 +132,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build 1b: phony 1b.exe
+
 build programacionestructurada: phony programacionestructurada.exe
 
 # =============================================================================
@@ -115,7 +144,7 @@ build programacionestructurada: phony programacionestructurada.exe
 #############################################
 # Folder: C:/Users/alber_wzgn3ys/Documents/GitHub/programacionestructurada/cmake-build-debug
 
-build all: phony programacionestructurada.exe
+build all: phony programacionestructurada.exe 1b.exe
 
 # =============================================================================
 # Built-in targets

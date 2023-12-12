@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "programacionestructurada",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -38,8 +40,15 @@
 			[
 				{
 					"directoryIndex" : 0,
+					"id" : "1b::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1b-Debug-86b859d6df3bc13119a5.json",
+					"name" : "1b",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "programacionestructurada::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-programacionestructurada-Debug-ae8e4438e7869f7336d5.json",
+					"jsonFile" : "target-programacionestructurada-Debug-0d9d7c3b6c5e3d04994b.json",
 					"name" : "programacionestructurada",
 					"projectIndex" : 0
 				}
