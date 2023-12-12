@@ -11,10 +11,10 @@ int main() {
 
     struct Estudiante estudiante1;
 
-    strcpy(estudiante1.nombre, "Juan");
-    estudiante1.edad = 20;
-    estudiante1.promedio = 8.5;
-    
+    strcpy(estudiante1.nombre, "Alberto");
+    estudiante1.edad = 18;
+    estudiante1.promedio = 8;
+
     printf("Nombre: %s\n", estudiante1.nombre);
     printf("Edad: %d\n", estudiante1.edad);
     printf("Promedio: %.2f\n", estudiante1.promedio);

@@ -55,6 +55,12 @@ build CMakeFiles/programacionestructurada.dir/1a.cpp.obj: CXX_COMPILER__programa
   OBJECT_DIR = CMakeFiles\programacionestructurada.dir
   OBJECT_FILE_DIR = CMakeFiles\programacionestructurada.dir
 
+build CMakeFiles/programacionestructurada.dir/1b.cpp.obj: CXX_COMPILER__programacionestructurada_unscanned_Debug C$:/Users/alber_wzgn3ys/Documents/GitHub/programacionestructurada/1b.cpp || cmake_object_order_depends_target_programacionestructurada
+  DEP_FILE = CMakeFiles\programacionestructurada.dir\1b.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\programacionestructurada.dir
+  OBJECT_FILE_DIR = CMakeFiles\programacionestructurada.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target programacionestructurada
@@ -63,7 +69,7 @@ build CMakeFiles/programacionestructurada.dir/1a.cpp.obj: CXX_COMPILER__programa
 #############################################
 # Link the executable programacionestructurada.exe
 
-build programacionestructurada.exe: CXX_EXECUTABLE_LINKER__programacionestructurada_Debug CMakeFiles/programacionestructurada.dir/1a.cpp.obj
+build programacionestructurada.exe: CXX_EXECUTABLE_LINKER__programacionestructurada_Debug CMakeFiles/programacionestructurada.dir/1a.cpp.obj CMakeFiles/programacionestructurada.dir/1b.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\programacionestructurada.dir

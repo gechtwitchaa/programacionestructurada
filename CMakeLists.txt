@@ -4,4 +4,5 @@ project(programacionestructurada)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(programacionestructurada
-        1a.cpp)
+        1a.cpp 1b.cpp)
+
